@@ -1,7 +1,7 @@
 {
-  "name": "insertion-sort",
+ "name": "insertion-sort-js",
   "version": "1.0.0",
-  "description": "An insertion sort algorithm",
+  "description": "An insertion sort algorithm for education purposes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
