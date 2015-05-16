@@ -3,6 +3,7 @@ require('babel/polyfill');
 
 var insertionSort = function(sortable){
   //Insertion sort is efficient for sorting a small number of elements
+  //It's in the order of O(n2) so it's not good for big objects.
 
   //Starts in the second position (1) because it's unnecesary to enter in the first one, but there wouldn't be a problem.
   for(let i = 1; i < sortable.length; i++){
